@@ -3,7 +3,7 @@ machine:
     COVERALLS_PARALLEL: true
 dependencies:
   override:
-    - mvn clean package coveralls:report
+    - mvn -f ./org.jacoco.examples.maven.java/pom.xml clean test jacoco:report coveralls:report
 notify:
   webhooks:
     - url: https://coveralls.io/webhook?repo_token=$COVERALLS_REPO_TOKEN
