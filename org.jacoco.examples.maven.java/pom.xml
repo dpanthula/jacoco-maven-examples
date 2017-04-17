@@ -45,7 +45,7 @@
 				<configuration>
 				            <sourceEncoding>UTF-8</sourceEncoding>
                                              <serviceName>circleci</serviceName>
-					      <repoToken>T3DMcMMwGqLQ6CsxJ2IssX0gdSRFHZDr3mUfP</repoToken>
+					      <repoToken>jzkSByNshQfXQ44r1ZaKVFW08mpDM6BVr</repoToken>
 				 </configuration>
                               </plugin>
 			<plugin>
