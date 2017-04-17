@@ -1,0 +1,11 @@
+
+machine:
+  environment:
+    COVERALLS_PARALLEL: true
+dependencies:
+  override:
+    - mvn clean package coveralls:report
+
+notify:
+  webhooks:
+- url: https://coveralls.io/webhook?repo_token=$COVERALLS_REPO_TOKEN
