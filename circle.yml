@@ -6,4 +6,4 @@ dependencies:
     - mvn -f ./org.jacoco.examples.maven.java/pom.xml clean test jacoco:report coveralls:report
 notify:
   webhooks:
-    - url: https://coveralls.io/webhook?repo_token="T3DMcMMwGqLQ6CsxJ2IssX0gdSRFHZDr3mUfP"
+    - url: https://coveralls.io/webhook?repo_token="jzkSByNshQfXQ44r1ZaKVFW08mpDM6BVr"
