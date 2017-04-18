@@ -4,6 +4,9 @@ machine:
 dependencies:
   override:
     - mvn -f ./org.jacoco.examples.maven.java/pom.xml clean test jacoco:report coveralls:report
+test:
+  override:
+    - echo "no tests"
 notify:
   webhooks:
     - url: https://coveralls.io/webhook?repo_token="jzkSByNshQfXQ44r1ZaKVFW08mpDM6BVr"

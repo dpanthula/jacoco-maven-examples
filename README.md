@@ -1,5 +1,5 @@
 JaCoCo Maven Examples for Different JVM Languages
-=================================================
+**=================================================**
 
 Collection of Maven example projects for different Java VM languages with JaCoCo
 code coverage. Each project contains a simple _Hello World_ snippet and a
